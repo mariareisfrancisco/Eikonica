@@ -21,10 +21,12 @@
 
 .burger {
   display: inline-block;
-  margin-bottom: 20px;
-  padding: 10px 20px;
-  background: aqua;
+  transform: scale(0.9);
   transition: background-color 0.4s;
+}
+
+.burger:hover {
+  transform: scale(1);
 }
 
 .burger.is-active {
@@ -34,13 +36,46 @@
 .menu {
   padding: 10px 20px;
   background: var(--dark-grey);
-  text-align: center;
+  text-align: left;
   opacity: 0;
   transition: opacity 0.4s;
+  position: absolute;
+  top: 160;
+  left: 0;
+  display: inline-block;
+  min-width: 100%;
+  text-align: center;
 }
 
 .menu.is-open {
   opacity: 1;
+}
+
+header a {
+  text-decoration: none;
+  font-family: "changeling-neo-stencil", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 25px;
+  color: var(--medium-grey);
+  letter-spacing: -0.51px;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 20 500;
+  text-align: center;
+}
+
+header a:hover {
+  color: var(--white);
+}
+
+header .line {
+  height: 2px;
+  background-color: var(--grey);
+}
+
+header li {
+  list-style-type: none;
 }
 
 .logo {
