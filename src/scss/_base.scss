@@ -1,12 +1,71 @@
 /* ====================================
 // css variables
+#504995
+#D0E1B6
+#E7E7E7
+#1D1D1B
 // ==================================== */
 
 :root {
+  --purple: #504995;
+  --green: #d0e1b6;
+  --light-grey: #e7e7e7;
+  --medium-grey: #c0bebe;
+  --grey: #696963;
+  --dark-grey: #1d1d1b;
+  --white: #fff;
 }
 
 /* ====================================
 // reset rules
+Extralight
+font-family: "roc-grotesk", sans-serif;
+font-weight: 200;
+font-style: normal;
+Light
+font-family: "roc-grotesk", sans-serif;
+font-weight: 300;
+font-style: normal;
+Regular
+font-family: "roc-grotesk", sans-serif;
+font-weight: 400;
+font-style: normal;
+Medium
+font-family: "roc-grotesk", sans-serif;
+font-weight: 500;
+font-style: normal;
+Bold
+font-family: "roc-grotesk", sans-serif;
+font-weight: 600;
+font-style: normal;
+Extrabold
+font-family: "roc-grotesk", sans-serif;
+font-weight: 700;
+font-style: normal;
+Black
+font-family: "roc-grotesk", sans-serif;
+font-weight: 800;
+font-style: normal;
+Light
+font-family: "changeling-neo", sans-serif;
+font-weight: 300;
+font-style: normal;
+Regular
+font-family: "changeling-neo", sans-serif;
+font-weight: 400;
+font-style: normal;
+Bold
+font-family: "changeling-neo", sans-serif;
+font-weight: 700;
+font-style: normal;
+Inline
+font-family: "changeling-neo-inline", sans-serif;
+font-weight: 700;
+font-style: normal;
+Stencil
+font-family: "changeling-neo-stencil", sans-serif;
+font-weight: 700;
+font-style: normal;
 // ==================================== */
 
 * {
@@ -42,3 +101,21 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+
+html {
+  background-color: var(--light-grey);
+}
+
+h1 {
+  font-family: "roc-grotesk", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: var(--white);
+}
+
+h2 {
+  font-family: "changeling-neo-stencil", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: var(--white);
+}
