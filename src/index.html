@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>eikon parcel starter</title>
+    <title>Eikonica Festival</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="scss/main.scss" />
     <link rel="stylesheet" href="https://use.typekit.net/sqx7yss.css" />
@@ -41,7 +41,7 @@
             </div>
           </div>
           <div class="col-lg-12">
-            <img src="img/header-title.png" alt="titre" />
+            <img class="header-title" src="img/header-title.png" alt="titre" />
           </div>
         </div>
       </div>
@@ -61,20 +61,21 @@
     </header>
     <main>
       <div class="l-presentation">
-        <video id="background-video" autoplay loop muted>
+        <!-- <video id="background-video" autoplay loop muted>
           <source
+            class="video"
             src="img/pexels-crazy-motions-11738195-1920x1080-24fps.mp4"
             type="video/mp4"
           />
-        </video>
+        </video> -->
         <div class="container">
           <div class="row">
             <div class="col-lg-12">
               <p>eikonica festival</p>
               <h1>Le festival des Arts <br />numériques de <br />Fribourg</h1>
-              <button class="color-green">
-                <p>Showreel</p>
-              </button>
+              <div class="button-green">
+                <a>Showreel</a>
+              </div>
             </div>
           </div>
         </div>
@@ -83,11 +84,11 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-5">
-              <h2>Programme du Festival</h2>
+              <h2>Programme <br />du Festival</h2>
               <p>Concerts, conférences et bien plus !</p>
-              <button class="color-green">
-                <p>Voir tout</p>
-              </button>
+              <div class="button-green">
+                <a>Voir tout</a>
+              </div>
             </div>
             <div class="col-lg-7">
               <div class="doors">
@@ -110,9 +111,9 @@
           <div class="row">
             <div class="col-lg-12">
               <h1>Réservez vos <br />places en avance</h1>
-              <button class="color-purple">
-                <p>Voir tout</p>
-              </button>
+              <div class="button-purple">
+                <a>Réserver <br />maintenant</a>
+              </div>
             </div>
           </div>
         </div>
@@ -124,16 +125,25 @@
               <h2>evenements</h2>
               <div class="evenements">
                 <div class="conferences">
-                  <h3>Conférences</h3>
-                  <p>Tendances et actualités</p>
+                  <img src="img/conferences-bg.png" alt="fond conférences" />
+                  <div class="text">
+                    <h3>Conférences</h3>
+                    <p>Tendances et actualités</p>
+                  </div>
                 </div>
                 <div class="projections">
-                  <h3>Projections</h3>
-                  <p>Films et Illuminations</p>
+                  <img src="img/projections-bg.png" alt="fond projections" />
+                  <div class="text">
+                    <h3>Projections</h3>
+                    <p>Films et Illuminations</p>
+                  </div>
                 </div>
                 <div class="ateliers">
-                  <h3>Ateliers</h3>
-                  <p>Créations numériques</p>
+                  <img src="img/ateliers-bg.png" alt="fond ateliers" />
+                  <div class="text">
+                    <h3>Ateliers</h3>
+                    <p>Créations numériques</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -141,16 +151,16 @@
         </div>
       </div>
       <div class="l-presentation">
-        <video id="background-video" autoplay loop muted>
+        <!-- <video id="background-video" autoplay loop muted>
           <source
             src="img/pexels-crazy-motions-11738195-1920x1080-24fps.mp4"
             type="video/mp4"
           />
-        </video>
+        </video> -->
         <div class="container">
           <div class="row">
             <div class="col-lg-12">
-              <h1>Notre festival</h1>
+              <h1 class="title">Notre festival</h1>
             </div>
           </div>
         </div>
@@ -161,9 +171,9 @@
             <div class="col-lg-5">
               <h2>Découvrez nos artistes</h2>
               <p>Des concerts tous les soirs à Frison !</p>
-              <button class="color-green">
-                <p>Ecoutez-les</p>
-              </button>
+              <div class="button-green">
+                <a>Ecoutez-les</a>
+              </div>
             </div>
             <div class="col-lg-7">
               <div class="windows">
@@ -186,9 +196,9 @@
           <div class="row">
             <div class="col-lg-12">
               <h1>Ne perdez aucune <br />information importante</h1>
-              <button class="color-purple">
-                <p>Infos pratiques</p>
-              </button>
+              <div class="button-purple">
+                <a>Infos pratiques</a>
+              </div>
             </div>
           </div>
         </div>

@@ -1,0 +1,36 @@
+.l-call-to-action {
+  color: var(--white);
+  text-align: center;
+}
+
+.l-call-to-action h1 {
+  font-family: "roc-grotesk", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 50px;
+  letter-spacing: 2.69px;
+  line-height: 40px;
+  padding: 60 0 40;
+}
+
+.l-call-to-action .button-purple {
+  font-family: "roc-grotesk", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 18px;
+  color: var(--purple);
+  letter-spacing: 2.79px;
+  line-height: 17px;
+  border: solid 1px var(--purple);
+  border-radius: 14;
+  display: inline-block;
+  padding: 15px 65px;
+  margin-bottom: 55px;
+  transition: all 0.3s ease;
+}
+
+.l-call-to-action .button-purple:hover {
+  border: solid 1px var(--purple);
+  color: var(--white);
+  background-color: var(--purple);
+}

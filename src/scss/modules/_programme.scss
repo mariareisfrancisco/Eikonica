@@ -1,0 +1,51 @@
+.l-programme {
+  color: var(--white);
+  text-align: left;
+}
+
+.l-programme h2 {
+  font-family: "changeling-neo-stencil", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 46px;
+  letter-spacing: -0.94px;
+  line-height: 44px;
+  text-transform: uppercase;
+  padding: 180 0 30;
+}
+
+.l-programme p {
+  font-family: "roc-grotesk", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  letter-spacing: -0.51px;
+  line-height: 19px;
+  padding-bottom: 85;
+}
+
+.l-programme .doors {
+  padding: 165 0;
+}
+
+.l-programme .button-green {
+  font-family: "roc-grotesk", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 18px;
+  color: var(--green);
+  letter-spacing: 2.79px;
+  line-height: 17px;
+  border: solid 1px var(--green);
+  border-radius: 14;
+  display: inline-block;
+  padding: 15px 65px;
+  margin-bottom: 130px;
+  transition: all 0.3s ease;
+}
+
+.l-programme .button-green:hover {
+  border: solid 1px var(--green);
+  background-color: var(--green);
+  color: var(--white);
+}

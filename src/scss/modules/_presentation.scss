@@ -1,0 +1,45 @@
+.l-presentation {
+  color: var(--white);
+  text-align: center;
+}
+
+.l-presentation p {
+  font-family: "changeling-neo-stencil", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 25px;
+  letter-spacing: -0.51px;
+  padding: 150 0 50;
+}
+
+.l-presentation h1 {
+  font-family: "roc-grotesk", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 81px;
+  letter-spacing: 4.35px;
+  line-height: 71px;
+  padding: 0 0 120;
+}
+
+.l-presentation .button-green {
+  font-family: "roc-grotesk", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 18px;
+  color: var(--green);
+  letter-spacing: 2.79px;
+  line-height: 17px;
+  border: solid 1px var(--green);
+  border-radius: 14;
+  display: inline-block;
+  padding: 15px 65px;
+  margin-bottom: 130px;
+  transition: all 0.3s ease;
+}
+
+.l-presentation .button-green:hover {
+  border: solid 1px var(--green);
+  background-color: var(--green);
+  color: var(--white);
+}
