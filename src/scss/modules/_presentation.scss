@@ -9,10 +9,10 @@
   font-style: normal;
   font-size: 25px;
   letter-spacing: -0.51px;
-  padding: 150 0 50;
+  padding: 180 0 50;
 }
 
-.l-presentation h1 {
+.big-title {
   font-family: "roc-grotesk", sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -34,7 +34,7 @@
   border-radius: 14;
   display: inline-block;
   padding: 15px 65px;
-  margin-bottom: 130px;
+  margin-bottom: 170px;
   transition: all 0.3s ease;
 }
 
@@ -42,4 +42,17 @@
   border: solid 1px var(--green);
   background-color: var(--green);
   color: var(--white);
+}
+
+.title {
+  font-family: "roc-grotesk", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 70px;
+  color: #ffffff;
+  letter-spacing: 3.76px;
+  text-align: center;
+  line-height: 71px;
+  margin-top: 700px;
+  padding-bottom: 60px;
 }

@@ -47,15 +47,15 @@
       </div>
       <nav class="menu">
         <ul>
-          <li><a href="#Programme">Programme</a></li>
+          <li><a href="#">Programme</a></li>
           <li><div class="line"></div></li>
-          <li><a href="#Expositions">Expositions</a></li>
+          <li><a href="#">Expositions</a></li>
           <li><div class="line"></div></li>
-          <li><a href="#Infos">Infos Pratiques</a></li>
+          <li><a href="#">Infos Pratiques</a></li>
           <li><div class="line"></div></li>
-          <li><a href="#Partenaires">Partenaires</a></li>
+          <li><a href="#">Partenaires</a></li>
           <li><div class="line"></div></li>
-          <li><a href="#Contact">Contact</a></li>
+          <li><a href="#">Contact</a></li>
         </ul>
       </nav>
     </header>
@@ -72,7 +72,9 @@
           <div class="row">
             <div class="col-lg-12">
               <p>eikonica festival</p>
-              <h1>Le festival des Arts <br />numériques de <br />Fribourg</h1>
+              <h1 class="big-title">
+                Le festival des Arts <br />numériques de <br />Fribourg
+              </h1>
               <div class="button-green">
                 <a>Showreel</a>
               </div>
@@ -80,7 +82,7 @@
           </div>
         </div>
       </div>
-      <div id="Programme" class="l-programme">
+      <div class="l-programme">
         <div class="container">
           <div class="row">
             <div class="col-lg-5">
@@ -168,23 +170,38 @@
       <div class="l-artistes">
         <div class="container">
           <div class="row">
-            <div class="col-lg-5">
+            <div class="col-lg-4">
               <h2>Découvrez nos artistes</h2>
               <p>Des concerts tous les soirs à Frison !</p>
               <div class="button-green">
                 <a>Ecoutez-les</a>
               </div>
             </div>
-            <div class="col-lg-7">
+            <div class="col-lg-8">
               <div class="windows">
                 <div class="window-1">
-                  <p>Kinetic Flow</p>
+                  <img
+                    class="artist-photo-1"
+                    src="img/kinetic-flow.png"
+                    alt="Kinetic Flow"
+                  />
+                  <p class="artist-names-1">Kinetic <br />Flow</p>
                 </div>
                 <div class="window-2">
-                  <p>Neon Pulse</p>
+                  <img
+                    class="artist-photo-2"
+                    src="img/neon-pulse.png"
+                    alt="Neon Pulse"
+                  />
+                  <p class="artist-names-2">Neon <br />Pulse</p>
                 </div>
                 <div class="window-3">
-                  <p>Minjae Park</p>
+                  <img
+                    class="artist-photo-3"
+                    src="img/minjae-park.png"
+                    alt="Minjae Park"
+                  />
+                  <p class="artist-names-3">Minjae <br />Park</p>
                 </div>
               </div>
             </div>
@@ -203,23 +220,32 @@
           </div>
         </div>
       </div>
-      <div id="Expositions" class="l-expositions">
+      <div class="l-expositions">
         <div class="container">
           <div class="row">
             <div class="col-lg-12">
               <h2>Expositions</h2>
               <div class="expositions">
                 <div class="creations">
-                  <h3>Créations génératives</h3>
-                  <p>Art algorithmique</p>
+                  <img src="img/creations-bg.png" alt="fond creations" />
+                  <div class="text">
+                    <h3>Créations génératives</h3>
+                    <p>Art algorithmique</p>
+                  </div>
                 </div>
                 <div class="explorations">
-                  <h3>Au-delà de l’écran</h3>
-                  <p>Explorations immersives</p>
+                  <img src="img/explorations-bg.png" alt="fond explorations" />
+                  <div class="text">
+                    <h3>Au-delà de l’écran</h3>
+                    <p>Explorations immersives</p>
+                  </div>
                 </div>
                 <div class="interfaces">
-                  <h3>L’art interactif repensé</h3>
-                  <p>Interfaces expérimentales</p>
+                  <img src="img/interfaces-bg.png" alt="fond interfaces" />
+                  <div class="text">
+                    <h3>L’art interactif repensé</h3>
+                    <p>Interfaces expérimentales</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -233,43 +259,63 @@
               <h2>Restez informés avec <br />notre newsletter</h2>
               <div class="link">
                 <p>Ton adresse email</p>
-                <img src="img/arrow-right.svg" alt="flèche" />
+                <img src="img/arrow-right.png" alt="flèche" />
               </div>
             </div>
           </div>
         </div>
       </div>
     </main>
-    <footer id="Contact">
+    <footer>
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
-            <h2>Contact</h2>
-            <h2>Instagram</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-12">
-            <h2>News</h2>
-            <h2>Linkedin</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-12">
-            <h2>Facebook</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-12">
-            <h2 id="Partenaires">Partenaires</h2>
-            <div class="logos-partenaires">
-              <img src="img/loterie_romande.svg" alt="" />
-              <img src="img/fri-son.svg" alt="" />
-              <img src="img/eikon_simple.svg" alt="" />
-              <img src="img/etat_de_fribourg.svg" alt="" />
+            <div class="first-row">
+              <h2>Contact</h2>
+              <h2>Instagram</h2>
             </div>
           </div>
         </div>
+      </div>
+      <div class="line"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="second-row">
+              <h2>News</h2>
+              <h2>Linkedin</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="line"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="third-row">
+              <h2>Facebook</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="line"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="fourth-row">
+              <h2>Partenaires</h2>
+              <div class="logos-partenaires">
+                <img src="img/loterie_romande.svg" alt="" />
+                <img src="img/fri-son.svg" alt="" />
+                <img src="img/eikon_simple.svg" alt="" />
+                <img src="img/etat_de_fribourg.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="line"></div>
+      <div class="container">
         <div class="row">
           <div class="col-lg-12">
             <div class="policy-links">

@@ -1,0 +1,38 @@
+.l-newsletter h2 {
+  font-family: "changeling-neo-stencil", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 60px;
+  color: var(--green);
+  letter-spacing: -1.23px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 110 0 130;
+}
+
+.l-newsletter p {
+  font-family: "roc-grotesk", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 18px;
+  color: var(--white);
+  letter-spacing: -0.51px;
+  line-height: 19px;
+  padding-left: 15px;
+}
+
+.l-newsletter img {
+  width: 30px;
+  padding-right: 15px;
+}
+
+.link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 300px;
+  padding-bottom: 13px;
+  border-bottom: solid 1px var(--white);
+  margin-bottom: 150px;
+}

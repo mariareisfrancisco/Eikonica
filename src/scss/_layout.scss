@@ -2,12 +2,14 @@
   background-image: url(../img/presentation-bg.png);
   background-size: 100%;
   background-repeat: no-repeat;
+  min-height: 800px;
 }
 
 .l-programme {
   background-image: url(../img/programme-bg.png);
   background-size: 100%;
   background-repeat: no-repeat;
+  min-height: 800px;
 }
 
 .l-call-to-action {
@@ -17,5 +19,26 @@
 }
 
 .l-evenements {
-  min-height: 615px;
+  min-height: 600px;
+}
+
+.l-artistes {
+  background-image: url(../img/artistes-bg.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  min-height: 800px;
+}
+
+.l-expositions {
+  min-height: 600px;
+}
+
+.l-newsletter {
+  background-image: url(../img/news-bg.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+footer {
+  background-color: var(--dark-grey);
 }

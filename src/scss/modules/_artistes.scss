@@ -1,0 +1,125 @@
+.l-artistes {
+  color: var(--white);
+  text-align: left;
+}
+
+.l-artistes h2 {
+  font-family: "changeling-neo-stencil", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 46px;
+  letter-spacing: -0.94px;
+  line-height: 44px;
+  text-transform: uppercase;
+  padding: 180 0 30;
+}
+
+.l-artistes p {
+  font-family: "roc-grotesk", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  letter-spacing: -0.51px;
+  line-height: 19px;
+  padding-bottom: 85;
+}
+
+.l-artistes .windows {
+  padding: 180 0 0;
+}
+
+.l-artistes .button-green {
+  font-family: "roc-grotesk", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 18px;
+  color: var(--green);
+  letter-spacing: 2.79px;
+  line-height: 17px;
+  border: solid 1px var(--green);
+  border-radius: 14;
+  display: inline-block;
+  padding: 15px 65px;
+  margin-bottom: 380px;
+  transition: all 0.3s ease;
+}
+.l-artistes .button-green:hover {
+  border: solid 1px var(--green);
+  background-color: var(--green);
+  color: var(--white);
+}
+
+.windows {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.windows img {
+  width: 90%;
+}
+
+.windows p {
+  font-family: "changeling-neo-stencil", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 25px;
+  color: #ffffff;
+  letter-spacing: 3.98px;
+  text-align: center;
+  line-height: 23px;
+  text-transform: uppercase;
+}
+
+.window-1,
+.window-2,
+.window-3 {
+  position: relative;
+}
+
+.artist-names-1,
+.artist-names-3 {
+  position: absolute;
+  bottom: 0;
+  left: 60px;
+  display: none;
+}
+
+.artist-names-2 {
+  position: absolute;
+  bottom: 0;
+  left: 25%;
+  display: none;
+}
+
+.artist-photo-1,
+.artist-photo-2,
+.artist-photo-3 {
+  position: relative;
+}
+
+.artist-photo-1:hover {
+  transform: scale(0.8);
+}
+
+.artist-photo-2:hover {
+  transform: scale(0.8);
+}
+
+.artist-photo-3:hover {
+  transform: scale(0.8);
+}
+
+.artist-photo-1:hover + .artist-names-1 {
+  display: inline;
+}
+
+.artist-photo-2:hover + .artist-names-2 {
+  display: inline;
+}
+
+.artist-photo-3:hover + .artist-names-3 {
+  display: inline;
+}

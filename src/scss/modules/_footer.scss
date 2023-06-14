@@ -1,0 +1,62 @@
+footer h2 {
+  font-family: "changeling-neo-stencil", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 25px;
+  color: #c0bebe;
+  letter-spacing: -0.51px;
+  padding: 15 0;
+  text-transform: uppercase;
+}
+
+footer h2:hover {
+  color: var(--white);
+}
+
+footer img {
+  width: 100px;
+}
+
+footer p {
+  font-family: "roc-grotesk", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  color: #bfbdbd;
+  letter-spacing: -0.37px;
+  text-align: center;
+  line-height: 19px;
+  padding: 20px 0;
+}
+
+.first-row,
+.second-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.line {
+  height: 2px;
+  background-color: var(--grey);
+  margin: 0 40px;
+}
+
+.third-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.logos-partenaires {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 200px 50px;
+}
+
+.policy-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
