@@ -37,18 +37,17 @@
   padding: 10px 0px;
   background: var(--dark-grey);
   text-align: left;
-  opacity: 0;
+  display: none;
   transition: opacity 0.4s;
   position: absolute;
   top: 130;
   left: 0;
-  display: inline-block;
   min-width: 100%;
   text-align: center;
 }
 
 .menu.is-open {
-  opacity: 1;
+  display: inline-block;
 }
 
 header a {
@@ -104,5 +103,10 @@ header li {
 }
 
 .header-title {
-  padding-bottom: 150px;
+  padding: 140px 0 150px;
+}
+
+.bg-nav {
+  height: 130px;
+  background: var(--light-grey);
 }

@@ -11,7 +11,7 @@
   letter-spacing: -0.94px;
   line-height: 44px;
   text-transform: uppercase;
-  padding: 180 0 30;
+  padding: 110 0 30;
 }
 
 .l-artistes p {
@@ -21,11 +21,11 @@
   font-size: 20px;
   letter-spacing: -0.51px;
   line-height: 19px;
-  padding-bottom: 85;
+  padding-bottom: 70;
 }
 
 .l-artistes .windows {
-  padding: 180 0 0;
+  padding: 110 0 0;
 }
 
 .l-artistes .button-green {
@@ -40,7 +40,7 @@
   border-radius: 14;
   display: inline-block;
   padding: 15px 65px;
-  margin-bottom: 380px;
+  margin-bottom: 235px;
   transition: all 0.3s ease;
 }
 .l-artistes .button-green:hover {
@@ -55,6 +55,7 @@
   align-items: center;
   justify-content: space-between;
   position: relative;
+  align-items: center;
 }
 
 .windows img {
@@ -98,6 +99,7 @@
 .artist-photo-2,
 .artist-photo-3 {
   position: relative;
+  transition: all 0.3s ease;
 }
 
 .artist-photo-1:hover {

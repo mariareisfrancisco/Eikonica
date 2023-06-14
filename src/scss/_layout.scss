@@ -1,15 +1,20 @@
+.nav-fixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
 .l-presentation {
   background-image: url(../img/presentation-bg.png);
   background-size: 100%;
   background-repeat: no-repeat;
-  min-height: 800px;
 }
 
 .l-programme {
   background-image: url(../img/programme-bg.png);
   background-size: 100%;
   background-repeat: no-repeat;
-  min-height: 800px;
 }
 
 .l-call-to-action {
@@ -26,7 +31,6 @@
   background-image: url(../img/artistes-bg.png);
   background-size: 100%;
   background-repeat: no-repeat;
-  min-height: 800px;
 }
 
 .l-expositions {
