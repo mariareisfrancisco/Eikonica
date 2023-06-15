@@ -54,12 +54,10 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  position: relative;
-  align-items: center;
 }
 
 .windows img {
-  width: 90%;
+  width: 75%;
 }
 
 .windows p {
@@ -77,22 +75,29 @@
 .window-1,
 .window-2,
 .window-3 {
+  display: flex;
+  justify-content: center;
   position: relative;
+  transition: all 0.3s ease;
 }
 
 .artist-names-1,
 .artist-names-3 {
   position: absolute;
   bottom: 0;
-  left: 60px;
+  left: 50%;
+  transform: translate(-50%, 0);
   display: none;
+  transition: all 0.3s ease;
 }
 
 .artist-names-2 {
   position: absolute;
   bottom: 0;
-  left: 25%;
+  left: 50%;
+  transform: translate(-50%, 0);
   display: none;
+  transition: all 0.3s ease;
 }
 
 .artist-photo-1,

@@ -25,7 +25,7 @@
 }
 
 .l-programme .doors {
-  padding: 165 0;
+  padding: 150 0 0;
 }
 
 .l-programme .button-green {
@@ -40,7 +40,7 @@
   border-radius: 14;
   display: inline-block;
   padding: 15px 65px;
-  margin-bottom: 175px;
+  margin-bottom: 170px;
   transition: all 0.3s ease;
 }
 
@@ -48,4 +48,66 @@
   border: solid 1px var(--green);
   background-color: var(--green);
   color: var(--white);
+}
+
+.doors {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.doors img {
+  width: 75%;
+}
+
+.door-1,
+.door-2,
+.door-3 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.door-info {
+  position: absolute;
+  top: 195px;
+  right: 50px;
+  font-family: "roc-grotesk", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 25px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.door-1:hover {
+  transform: scale(0.8);
+}
+
+.door-2:hover {
+  transform: scale(0.8);
+}
+
+.door-3:hover {
+  transform: scale(0.8);
+}
+
+.border {
+  position: absolute;
+  opacity: 0;
+  transition: all 0.2s ease;
+}
+
+.door-1:hover .border {
+  opacity: 1;
+}
+
+.door-2:hover .border {
+  opacity: 1;
+}
+
+.door-3:hover .border {
+  opacity: 1;
 }
