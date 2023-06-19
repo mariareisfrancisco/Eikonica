@@ -28,6 +28,7 @@
 .ateliers {
   position: relative;
   color: #ffffff;
+  transition: all 0.3s ease;
 }
 
 .text h3 {
@@ -47,11 +48,22 @@
   font-size: 20px;
   letter-spacing: -0.41px;
   line-height: 19px;
-  padding-bottom: 25px;
 }
 
 .text {
   position: absolute;
-  bottom: 0;
+  bottom: 25px;
   left: 25px;
+}
+
+.conferences:hover {
+  transform: scale(0.9);
+}
+
+.projections:hover {
+  transform: scale(0.9);
+}
+
+.ateliers:hover {
+  transform: scale(0.9);
 }

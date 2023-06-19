@@ -1,4 +1,6 @@
-footer h2 {
+.first-row,
+.second-row,
+.third-row a {
   font-family: "changeling-neo-stencil", sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -9,15 +11,41 @@ footer h2 {
   text-transform: uppercase;
 }
 
-footer h2:hover {
+.first-row a:hover {
   color: var(--white);
+}
+
+.second-row a:hover {
+  color: var(--white);
+}
+
+.third-row a:hover {
+  color: var(--white);
+}
+
+.fourth-row a:hover {
+  color: var(--white);
+}
+
+.fourth-row a,
+.logos-partenaires {
+  font-family: "changeling-neo-stencil", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 25px;
+  color: #c0bebe;
+  letter-spacing: -0.51px;
+  text-transform: uppercase;
+  position: relative;
+  top: 15px;
+  left: 0;
 }
 
 footer img {
   width: 100px;
 }
 
-footer p {
+.policy-links a {
   font-family: "roc-grotesk", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -27,6 +55,7 @@ footer p {
   text-align: center;
   line-height: 19px;
   padding: 20px 0;
+  text-transform: capitalize;
 }
 
 .first-row,

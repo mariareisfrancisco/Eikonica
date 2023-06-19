@@ -1,0 +1,93 @@
+.button-green {
+  overflow: hidden;
+  padding: 1rem 2rem;
+  position: relative;
+  text-decoration: none;
+  transition: 0.2s transform ease-in-out;
+  z-index: 0;
+  font-family: "roc-grotesk", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 18px;
+  color: var(--green);
+  letter-spacing: 2.79px;
+  line-height: 17px;
+  border: solid 1px var(--green);
+  border-radius: 14;
+  display: inline-block;
+  padding: 15px 65px;
+  margin-bottom: 170px;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px 0 #221f3f;
+}
+
+.button-green::after {
+  background-color: var(--green);
+  border-radius: 3rem;
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translate(-100%, 0) rotate(10deg);
+  transform-origin: top left;
+  transition: 0.2s transform ease-out;
+  z-index: -1;
+}
+
+.button-green:hover::after {
+  transform: translate(0, 0);
+}
+
+.button-green:hover {
+  transform: scale(1.05);
+}
+
+.button-purple {
+  overflow: hidden;
+  padding: 1rem 2rem;
+  position: relative;
+  text-decoration: none;
+  transition: 0.2s transform ease-in-out;
+  z-index: 0;
+  font-family: "roc-grotesk", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 18px;
+  color: var(--green);
+  letter-spacing: 2.79px;
+  line-height: 17px;
+  border: solid 1px var(--purple);
+  border-radius: 14;
+  display: inline-block;
+  padding: 15px 65px;
+  margin-bottom: 170px;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px 0 #79836a;
+}
+
+.button-purple::after {
+  background-color: var(--purple);
+  border-radius: 3rem;
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translate(-100%, 0) rotate(10deg);
+  transform-origin: top left;
+  transition: 0.2s transform ease-out;
+  z-index: -1;
+}
+
+.button-purple:hover::after {
+  transform: translate(0, 0);
+}
+
+.button-purple:hover {
+  transform: scale(1.05);
+}
