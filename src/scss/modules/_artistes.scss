@@ -82,21 +82,13 @@
 }
 
 .artist-names-1,
+.artist-names-2,
 .artist-names-3 {
   position: absolute;
   bottom: 0;
   left: 50%;
   transform: translate(-50%, 0);
-  display: none;
-  transition: all 0.3s ease;
-}
-
-.artist-names-2 {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translate(-50%, 0);
-  display: none;
+  opacity: 0;
   transition: all 0.3s ease;
 }
 
@@ -107,26 +99,14 @@
   transition: all 0.3s ease;
 }
 
-.artist-photo-1:hover {
-  transform: scale(0.8);
-}
-
-.artist-photo-2:hover {
-  transform: scale(0.8);
-}
-
+.artist-photo-1:hover,
+.artist-photo-2:hover,
 .artist-photo-3:hover {
   transform: scale(0.8);
 }
 
-.artist-photo-1:hover + .artist-names-1 {
-  display: inline;
-}
-
-.artist-photo-2:hover + .artist-names-2 {
-  display: inline;
-}
-
-.artist-photo-3:hover + .artist-names-3 {
-  display: inline;
+.artist-photo-1:hover ~ .artist-names-1,
+.artist-photo-2:hover ~ .artist-names-2,
+.artist-photo-3:hover ~ .artist-names-3 {
+  opacity: 1;
 }

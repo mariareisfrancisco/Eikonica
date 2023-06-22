@@ -102,8 +102,16 @@ header li {
   padding-left: 30px;
 }
 
+.language span {
+  border-bottom: solid 2px var(--dark-grey);
+}
+
 .header-title {
-  padding: 140px 0 150px;
+  margin: 140px 0 100px;
+  display: block;
+  outline: none;
+  outline: 4px solid var(--light-grey);
+  outline-offset: -4px;
 }
 
 .bg-nav {
